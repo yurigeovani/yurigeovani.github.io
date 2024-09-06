@@ -147,6 +147,14 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
+	#work .ag-timeline-card_desc h4  {
+		margin: 0 0 0 -30px;
+	}
+	#work .ag-timeline-card_desc p  {
+		margin: 0 0 15px 0;
+	}
+
+		
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;

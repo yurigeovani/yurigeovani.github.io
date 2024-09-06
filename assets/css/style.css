@@ -50,7 +50,7 @@ img {
 }
 
 .ag-timeline-block {
-  padding: 300px 0;
+  padding: 120px 0; /* ajuste experiencias */
 }
 .ag-timeline_title-box {
   padding: 0 0 30px;
@@ -112,7 +112,7 @@ img {
 
 .ag-timeline_line-progress {
   width: 100%;
-  height: 20%;
+  /* height: 20%; */ /* corrigir o progresso da linha verticalmente */
   background-color: #FFFFFF;
 }
 
@@ -139,11 +139,13 @@ img {
   text-align: center;
   font-family: 'ESL Legend', sans-serif;
   font-size: 20px;
+  font-weight: bold; /* Ano em negrito */
   color: #FFF;
 
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  box-sizing: unset; /* Corrige o tamanho do círculo */
 }
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
@@ -153,8 +155,7 @@ img {
   display: inline-block;
 }
 .ag-timeline-card_meta {
-  margin: 10px 0 0;
-
+  /* margin: 10px 0 0; */   /* Corrigir centralização da season */
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
@@ -248,7 +249,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #FF0;
+  color: #FFF;
 }
 .ag-timeline-card_desc {
   line-height: 1.45;
