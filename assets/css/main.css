@@ -1565,6 +1565,7 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+				text-align: justify;
 			}
 
 			#main article .close {
@@ -1644,12 +1645,17 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#footer .copyright {
+		#footer .copyright, #education .duration {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			border-bottom: none;
+		}
+
+		#footer .copyright:hover {
+			font-weight: bold;
 		}
 
 		body.is-article-visible #footer {
@@ -1668,6 +1674,18 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+/* Education */
+	#education .course {
+	    margin-bottom: 1.5em;
+		border: solid;
+		border-color: red;
+		border-width: 2px;
+	}
+
+	.course .h3, .course .h4, .course p, .course {
+		margin: 0 0 0 20px;
+	}
+	
 
 /* Email sent */
 #email-sent {
