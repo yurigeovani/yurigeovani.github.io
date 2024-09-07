@@ -249,7 +249,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #FFF;
+  /* color: #FFf; */
 }
 .ag-timeline-card_desc {
   line-height: 1.45;

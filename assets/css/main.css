@@ -148,11 +148,14 @@ input, select, textarea {
 	}
 
 	#work .ag-timeline-card_desc h4  {
-		margin: 0 0 0 -30px;
+		margin: 0;
+		text-align: left;
 	}
+
 	#work .ag-timeline-card_desc p  {
-		margin: 0 0 15px 0;
-	}
+		margin: 0 0 15px 15px;
+		text-align: justify;
+    }
 
 		
 	a {
