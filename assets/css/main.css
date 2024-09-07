@@ -1681,15 +1681,16 @@ input, select, textarea {
 	}
 	
 	.course h3 {
-		margin: 0 0 0 20px;
+		margin: 0;
 	}
 	
 	.course h4, .course .duration {
-		margin: 0 0 0 40px;
+		margin: 0 0 0 20px;
+		text-align: left;
 	}
 	
 	.course p {
-		margin: 0 0 0 60px;
+		margin: 0 0 0 40px;
 	}
 	
 	.course p {
