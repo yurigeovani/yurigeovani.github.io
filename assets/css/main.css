@@ -1677,13 +1677,23 @@ input, select, textarea {
 /* Education */
 	#education .course {
 	    margin-bottom: 1.5em;
-		border: solid;
-		border-color: red;
-		border-width: 2px;
+		text-align: justify;
 	}
-
-	.course .h3, .course .h4, .course p, .course {
+	
+	.course h3 {
 		margin: 0 0 0 20px;
+	}
+	
+	.course h4, .course .duration {
+		margin: 0 0 0 40px;
+	}
+	
+	.course p {
+		margin: 0 0 0 60px;
+	}
+	
+	.course p {
+		margin-bottom: 1em;
 	}
 	
 
